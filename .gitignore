@@ -1,1 +1,6 @@
 
+pyhts/
+experiment/
+.idea/
+test.csv
+.DS_Store
