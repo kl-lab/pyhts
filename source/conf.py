@@ -3,6 +3,7 @@
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+from recommonmark.transform import AutoStructify
 
 # -- Path setup --------------------------------------------------------------
 
@@ -59,8 +60,6 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
-from recommonmark.transform import AutoStructify
 
 def setup(app):
     app.add_transform(AutoStructify)
